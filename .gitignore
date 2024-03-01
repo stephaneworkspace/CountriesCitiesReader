@@ -1,0 +1,58 @@
+# Fichiers de build de Xcode
+build/
+DerivedData/
+
+# Fichiers de configuration de projet de Xcode
+*.xcuserstate
+project.xcworkspace
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Autres fichiers et dossiers spécifiques à Xcode
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Fichiers de package Swift
+.build/
+Packages/
+Package.resolved
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcuserdata/
+
+# Fichiers spécifiques au système d'exploitation
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.swo
+*~
+
+# Fichiers d'environnement de développement personnel
+.idea/
+.vscode/
+*.iml
+
+# Fichiers de journalisation
+*.log
+*.log.*
+
+# Autres fichiers et dossiers à ignorer
+Carthage/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Temp dir
+tmp/
