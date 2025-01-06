@@ -39,7 +39,7 @@ public class UnzipFile {
             // Extract
             try Zip.unzipFile(fileURL, destination: destinationURL, overwrite: true, password: nil, fileOutputHandler:  { (progress) -> () in
                 if self.swDebug {
-                    print("Unziping in progress : \(progress)")
+                    //print("Unziping in progress : \(progress)")
                 }
             })
             return 0
